@@ -18,7 +18,7 @@ button {
 
 
 .title {
-  color: #fff;
+  /* color: #fff; */
   background: black;
   padding: 15px 0;
   text-align: center;
@@ -28,19 +28,25 @@ button {
 
 .content {
   max-width: 500px;
+  width: calc(100% - 20px);
   margin: 0 auto;
-  padding: 20px;
+  padding: 25px 30px;
   background: crimson;
+  box-sizing: border-box;
   color: #fff;
-  border-radius: 3px;
+  border-radius: 5px;
 }
 
 
 .content h3 {
-
+  text-transform: capitalize;
+  font-size: 30px;
+  margin: 0 0 15px;
+  text-align: center;
 }
 
 
 .content p {
-
+  font-size: 17px;
+  line-height: 1.5;
 }
