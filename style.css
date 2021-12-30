@@ -15,3 +15,12 @@ button {
   background: none;
   border: none;
 }
+
+
+.title {
+  color: #fff;
+  background: black;
+  padding: 15px 0;
+  text-align: center;
+  text-transform: capitalize;
+}
